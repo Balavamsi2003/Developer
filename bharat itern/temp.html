@@ -1,0 +1,33 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0;500;0,600;0,700;0,800;0"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="title">
+		<h1>Temperature Converter</h1>
+		<span class="Temperature-icon">
+		<i class="fa-solid fa-temperature-three-quarters"></i></span>
+	</div>
+	<div class="cnt">
+		<div>
+			<label for="celsius"></label>
+		    <input type="number" name=" " id="celsius" placeholder="Celsius" oninput="celToFar_Kel()">
+		     <span class="icon ">&#8451</span>
+	    </div>
+	    <div>
+	    	<label for="fahrenheit"></label>
+		    <input type="number"  name=" "  id="fahrenheit" placeholder="Fahrenheit" oninput="farToCel_Kel()">
+		     <span class="icon">&#8457</span>
+	    </div>
+	    <div>
+	    	<label for="kelvin"></label>
+		    <input type="number"  name=" " id="kelvin" placeholder="Kelvin" oninput="kelToCel_Far()">
+		    <span class="icon">&#8490</span>
+	    </div>
+</div>
+<script src="temp.js"></script>
+</body>
+</html>
